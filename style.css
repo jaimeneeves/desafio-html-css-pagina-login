@@ -1,5 +1,7 @@
 :root {
   --color-white: white;
+  --space-default: 15px;
+  --radius-default: 15px;
 }
 
 * {
@@ -15,6 +17,7 @@ body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-white);
+  font-size: 16px;
 }
 
 .container-login-left {
@@ -35,10 +38,14 @@ body {
 }
 
 .container-login-left input{
-  border: none;
-  border-radius: 15px;
-  padding: 15px;
+  border: transparent;
+  padding: 18px 18px 18px 5px;
   background: rgba(240, 237, 255, 0.80);
+  width: 100%;
+}
+
+.container-login-left input:focus {
+  outline: none;
 }
 
 .container-login-left .btn-login {
@@ -46,17 +53,40 @@ body {
   color: var(--color-white);
   font-weight: bold;
   border: none;
-  border-radius: 15px;
-  background-color: blueviolet;
+  border-radius: var(--radius-default);
+  background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
+  box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16);
 }
 .container-login-left .btn-others {
   border: 1px solid #dcdcdc;
   padding: 20px 40px;
-  border-radius: 15px;
+  border-radius: var(--radius-default);
   color: black;
   background-color: var(--color-white);
 }
 
 .btn-block {
   width: 100%;
+}
+
+/* Utils */
+
+.row-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-icon {
+  border: transparent;
+  padding: 12px 0px 12px 20px;
+  background: rgba(240, 237, 255, 0.80);
+  border-top-left-radius: var(--radius-default);
+  border-bottom-left-radius: var(--radius-default);
+  font-size: 13px;
+}
+
+.radius-right {
+  border-top-right-radius: var(--radius-default);
+  border-bottom-right-radius: var(--radius-default);
 }
