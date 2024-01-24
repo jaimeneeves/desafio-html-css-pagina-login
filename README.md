@@ -26,6 +26,5 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 ## Contato e Suporte
 
-YouTube: [Café Binário TV](https://youtube.com/@cafebinariotv?si=qtEuLpF-d9CAVcGG)
-
-Email: jaimebarrosoneves@gmail.com
+- YouTube: [Café Binário TV](https://youtube.com/@cafebinariotv?si=qtEuLpF-d9CAVcGG)
+- Email: jaimebarrosoneves@gmail.com
