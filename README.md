@@ -10,11 +10,11 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 `style.css`: Arquivo CSS com toda a estilização da página.
 
-Neste desafio, você aprenderá:
+## Neste desafio, você aprenderá:
 
-- [x] Como traduzir um layout de design em código HTML/CSS real.
-- [x] Técnicas essenciais de HTML e CSS para construção de interfaces de usuário.
-- [x] Dicas práticas para melhorar suas habilidades de codificação visual.
+:heavy_check_mark: Como traduzir um layout de design em código HTML/CSS real.
+:heavy_check_mark: Técnicas essenciais de HTML e CSS para construção de interfaces de usuário.
+:heavy_check_mark: Dicas práticas para melhorar suas habilidades de codificação visual.
 
 ## Vídeos
 
