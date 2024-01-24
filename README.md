@@ -6,9 +6,8 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 ## Estrutura do Projeto
 
-`index.html`: Arquivo HTML contendo a estrutura da página de login.
-
-`style.css`: Arquivo CSS com toda a estilização da página.
+- `index.html`: Arquivo HTML contendo a estrutura da página de login.
+- `style.css`: Arquivo CSS com toda a estilização da página.
 
 ## Neste desafio, você aprenderá:
 
