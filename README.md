@@ -12,9 +12,9 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 ## Neste desafio, você aprenderá:
 
-:heavy_check_mark: Como traduzir um layout de design em código HTML/CSS real.
-:heavy_check_mark: Técnicas essenciais de HTML e CSS para construção de interfaces de usuário.
-:heavy_check_mark: Dicas práticas para melhorar suas habilidades de codificação visual.
+- :heavy_check_mark: Como traduzir um layout de design em código HTML/CSS real.
+- :heavy_check_mark: Técnicas essenciais de HTML e CSS para construção de interfaces de usuário.
+- :heavy_check_mark: Dicas práticas para melhorar suas habilidades de codificação visual.
 
 ## Vídeos
 
