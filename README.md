@@ -27,7 +27,7 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 ## Links
 
-[Projeto no Figma](https://www.figma.com/file/TjYQVXTjy1BXNN4wp05MdK/Login-Page-UI-Design-(Community)?node-id=0%3A1&mode=dev)
+[Projeto no Figma](https://www.figma.com/community/file/1256871498988476466/login-page-ui-design)
 
 ## Contato e Suporte
 
