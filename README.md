@@ -1,10 +1,10 @@
-# Desafio HTML/CSS - Página de Login
-
 <p align="center">
   <a href="https://babeljs.io/">
     <img alt="babel" src="login.png" width="546">
   </a>
 </p>
+
+# Desafio HTML/CSS - Página de Login
 
 👨‍💻 Este repositório contém o código-fonte para a série de vídeos **Desafio de Código: Criando uma Página de Login do Zero com HTML/CSS - Sem Ajuda de Ferramentas!**, disponível no [Café Binário TV](https://youtube.com/@cafebinariotv?si=qtEuLpF-d9CAVcGG).
 
