@@ -1,7 +1,10 @@
 :root {
   --color-white: white;
-  --space-default: 15px;
   --radius-default: 15px;
+
+  --space-default: 15px;
+  --space-large: 18px;
+  --space-largex: 20px;
 
   --font-small: 13px;
   --font-base: 16px;
@@ -20,26 +23,37 @@ body {
   background-color: var(--color-white);
 }
 
+/* Input Components */
+
+.input {
+  border: transparent;
+  padding: 18px 18px 18px 5px;
+  background: rgba(240, 237, 255, 0.80);
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+}
+
+/* End Input Components */
+
 .container {
-  display: flex;
   height: 100vh;
 }
 .container-box {
   flex: 1;
-  padding: 20px 90px;
+  padding: var(--space-largex) 90px;
 }
 
 .container-login-left {
-  display: flex;
   flex-direction: column;
   text-align: center;
   align-self: center;
-  gap: 18px;
+  gap: var(--space-large);
   width: 100px;
 }
 
 .container-login-left .login-title {
-  text-transform: uppercase;
   font-size: var(--font-large);
 }
 
@@ -48,29 +62,15 @@ body {
   font-size: var(--font-base);
 }
 
-.container-login-left input{
-  border: transparent;
-  padding: 18px 18px 18px 5px;
-  background: rgba(240, 237, 255, 0.80);
-  width: 100%;
-}
-
-.container-login-left input:focus {
-  outline: none;
-}
-
 .container-login-left .btn-login {
-  padding: 20px 30px;
+  padding: var(--space-largex) 30px;
   color: var(--color-white);
-  font-weight: bold;
-  border: none;
-  border-radius: var(--radius-default);
   background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
   box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16);
 }
 .container-login-left .btn-others {
   border: 1px solid #dcdcdc;
-  padding: 20px 40px;
+  padding: var(--space-largex) 40px;
   border-radius: var(--radius-default);
   color: black;
   background-color: var(--color-white);
@@ -83,9 +83,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.page-content-right {
-  position: static;
 }
 .rectangle {
   position: absolute;
@@ -128,12 +125,33 @@ body {
 
 /* == Utils == */
 
+.d-flex {
+  display: flex;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.font-weight {
+  font-weight: bold !important;
+}
+
+.radius-default {
+  border-radius: var(--radius-default) !important;
+}
+
+.no-border {
+  border: none;
+}
+
+.position-static {
+ position: static !important;
+}
+
 .btn-block {
   width: 100%;
 }
 
 .row-flex {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
