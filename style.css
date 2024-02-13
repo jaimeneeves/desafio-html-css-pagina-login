@@ -11,23 +11,11 @@
   --font-large: 32px;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: var(--font-base);
-  background-color: var(--color-white);
-}
-
 /* Input Components */
 
 .input {
   border: transparent;
-  padding: 18px 18px 18px 5px;
+  padding: 12px 20px;
   background: rgba(240, 237, 255, 0.80);
   width: 100%;
 }
@@ -37,38 +25,13 @@ body {
 
 /* End Input Components */
 
-.container {
-  height: 100vh;
-}
-.container-box {
-  flex: 1;
-  padding: var(--space-largex) 90px;
-}
-
-.container-login-left {
-  flex-direction: column;
-  text-align: center;
-  align-self: center;
-  gap: var(--space-large);
-  width: 100px;
-}
-
-.container-login-left .login-title {
-  font-size: var(--font-large);
-}
-
-.container-login-left .login-description {
-  color: gray;
-  font-size: var(--font-base);
-}
-
-.container-login-left .btn-login {
+.btn-login {
   padding: var(--space-largex) 30px;
   color: var(--color-white);
   background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
   box-shadow: 0px 8px 21px 0px rgba(0, 0, 0, 0.16);
 }
-.container-login-left .btn-others {
+.btn-others {
   border: 1px solid #dcdcdc;
   padding: var(--space-largex) 40px;
   border-radius: var(--radius-default);
@@ -125,35 +88,12 @@ body {
 
 /* == Utils == */
 
-.d-flex {
-  display: flex;
-}
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-.font-weight {
-  font-weight: bold !important;
+.p-custom {
+  padding: var(--space-largex) 90px;
 }
 
-.radius-default {
-  border-radius: var(--radius-default) !important;
-}
-
-.no-border {
-  border: none;
-}
-
-.position-static {
- position: static !important;
-}
-
-.btn-block {
-  width: 100%;
-}
-
-.row-flex {
-  justify-content: center;
-  align-items: center;
+.w-100px {
+  width: 100px;
 }
 
 .row-icon {
@@ -163,9 +103,4 @@ body {
   border-top-left-radius: var(--radius-default);
   border-bottom-left-radius: var(--radius-default);
   font-size: var(--font-small);
-}
-
-.radius-right {
-  border-top-right-radius: var(--radius-default);
-  border-bottom-right-radius: var(--radius-default);
 }

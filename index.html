@@ -3,34 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Login</title>
+  <title>Bootstrap 5 - Página de Login</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-  <div class="d-flex container">
+  <div class="d-flex">
     <!-- Box Left -->
-    <div class="d-flex container-box container-login-left">
-      <h1 class="text-uppercase login-title">Login</h1>
-      <p class="login-description">How to i get started lorem ipsum dolor at?</p>
-      <div class="d-flex row-flex">
+    <div class="d-flex flex-fill justify-content-center text-center flex-column vh-100 gap-3 p-custom w-100px">
+      <h1 class="text-uppercase fw-bold fs-2 mb-0">Login</h1>
+      <p class="text-body-secondary fs-6 mb-0">How to i get started lorem ipsum dolor at?</p>
+      <div class="d-flex justify-content-center align-items-center">
         <div class="row-icon">
           <img src="/user.svg" alt="">
         </div>
-        <input type="text" class="input radius-right" placeholder="Username" name="login">
+        <input type="text" class="input rounded-end-4" placeholder="Username" name="login">
       </div>
-      <div class="d-flex row-flex">
+      <div class="d-flex justify-content-center align-items-center">
         <div class="row-icon">
           <img src="/cadeado.svg" alt="">
         </div>
-        <input type="password" class="input radius-right" placeholder="Password" name="password">
+        <input type="password" class="input rounded-end-4" placeholder="Password" name="password">
       </div>
-      <div><button type="button" class="btn-login font-weight radius-default no-border">Login Now</button></div>
+      <div><button type="button" class="btn-login fw-bold rounded-4 border-0">Login Now</button></div>
       <div><strong>Login</strong> with Others</div>
-      <div><button class="btn-others btn-block">Login with <strong>Google</strong></button></div>
-      <div><button class="btn-others btn-block">Login with <strong>Facebook</strong> </button></div>
+      <div class="d-grid gap-2">
+        <button class="btn-others">Login with <strong>Google</strong></button>
+        <button class="btn-others btn-block">Login with <strong>Facebook</strong> </button>
+      </div>
     </div>
     <!-- Box Right -->
-    <div class="container-box container-login-right">
+    <div class="container-login-right vh-100 flex-fill flex-column p-custom d-none d-md-none d-lg-block">
       <div class="page-content-right position-static">
         <div class="rectangle">
           <img src="ellipse.png" class="img-ellipse" alt="">
