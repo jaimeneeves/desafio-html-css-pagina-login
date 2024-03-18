@@ -25,6 +25,7 @@ A série aborda a construção de uma página de login apenas usando HTML e CSS,
 
 - [Primeiro Vídeo](https://youtu.be/-Hy7gZ3UYoc)
 - [Segundo Vídeo](https://youtu.be/FJxElR9b1ls)
+- [Terceiro Vídeo](https://youtu.be/4zzdT5VzjCM)
 
 ## Links
 
